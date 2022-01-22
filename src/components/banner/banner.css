@@ -11,6 +11,7 @@
 }
 
 .banner-title, .banner-subtitle {
+    animation: 0.8s ease-out 0s 1 slideInFromLeft;
     font-family: 'Poppins', sans-serif;
     color: #fffdd0;
 }
@@ -51,4 +52,13 @@
 
 .text-highlight {
     color: #30d5c8;
+}
+
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
 }
