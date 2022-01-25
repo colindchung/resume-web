@@ -3,6 +3,8 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+@import "./components/about/about.css";
+@import "./components/banner/banner.css";
 
 body {
   margin: 0;

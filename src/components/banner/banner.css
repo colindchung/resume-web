@@ -1,7 +1,8 @@
  .banner {
     height: 100vh;
     width: 100vw;
-    background: rgba(0,0,0,0.5) url("../../../assets/sk6aqjh1ro371.png");
+    overflow: hidden;
+    background: rgba(0,0,0,0.5) url("../../assets/sk6aqjh1ro371.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
