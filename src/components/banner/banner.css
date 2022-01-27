@@ -1,58 +1,11 @@
  .banner {
-    height: 100vh;
-    width: 100vw;
-    overflow: hidden;
-    background: rgba(0,0,0,0.5) url("../../assets/sk6aqjh1ro371.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: center;
-    background-blend-mode: darken;
-    display: flex;
-    flex-direction: column;
+    background: rgba(0,0,0,0.5) url("../../assets/backgrounds/bk1.png");
+    max-width: 100%;
 }
 
-.banner-title, .banner-subtitle {
+.banner-font {
     animation: 0.8s ease-out 0s 1 slideInFromLeft;
     font-family: 'Poppins', sans-serif;
-    color: #fffdd0;
-}
-
-@media only screen and (max-width: 600px){
-
-    .banner {
-        align-items: center;
-        justify-content: flex-start;
-    }
-
-    .banner-title {
-        padding-top: 50px;
-        font-size: 18px;
-    }
-    
-    .banner-subtitle {
-        font-size: 14px;
-    }
-}
-
-@media only screen and (min-width: 600px){
-    .banner {
-        align-items: flex-end;
-        justify-content: center;
-    }
-
-    .banner-title {
-        padding-right: 50px;
-        font-size: 2.5rem;
-    }
-    
-    .banner-subtitle {
-        padding-right: 50px;
-        font-size: 1.75rem;
-    }
-}
-
-.text-highlight {
-    color: #30d5c8;
 }
 
 @keyframes slideInFromLeft {

@@ -2,15 +2,6 @@
   text-align: center;
 }
 
-.component-container {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  padding: 5rem 0rem;
-  align-items: center;
-}
-
 .component-title {
   font-family: 'Poppins', sans-serif;
-  font-size: 2.5vmax;
 }
