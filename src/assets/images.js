@@ -17,8 +17,7 @@ import docker from "./logos/docker.png"
 import dotnetCore from "./logos/dotnet-core.png"
 
 
-
-export default {
+let images = {
     headshot,
     backgrounds: {
         bk1,
@@ -40,3 +39,5 @@ export default {
         dotnetCore
     }
 }
+
+export default images
