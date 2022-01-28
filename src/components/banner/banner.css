@@ -1,18 +1,10 @@
  .banner {
     background: rgba(0,0,0,0.5) url("../../assets/backgrounds/bk1.png");
-    max-width: 100%;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
 }
 
 .banner-font {
     animation: 0.8s ease-out 0s 1 slideInFromLeft;
     font-family: 'Poppins', sans-serif;
-}
-
-@keyframes slideInFromLeft {
-    0% {
-      transform: translateX(100%);
-    }
-    100% {
-      transform: translateX(0);
-    }
 }

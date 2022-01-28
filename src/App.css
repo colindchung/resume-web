@@ -1,7 +1,22 @@
-.App {
-  text-align: center;
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
 }
 
-.component-title {
-  font-family: 'Poppins', sans-serif;
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes wipeEnter {
+	0% {
+		transform: scale(0, .025);
+	}
+	50% {
+		transform: scale(1, .025);
+	}
 }
