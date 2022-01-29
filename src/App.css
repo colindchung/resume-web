@@ -3,8 +3,9 @@
 }
 
 .top-slant {
-  clip-path: polygon(0 5%, 100% 0,100% 100%, 0% 95%);
+  clip-path: polygon(0 50px, 100% 0,100% 100%, 0 calc(100% - 50px));
 }
+
 
 .max-w-2xs {
   max-width: 8rem;
