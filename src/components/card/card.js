@@ -1,13 +1,14 @@
 import images from '../../assets/images'
 
-function Card(props) {
+function CardWork(props) {
     return (
-        <div className="my-5 w-8/12 divide-y bg-slate-300">
+        <div className="my-5 w-9/12 divide-y bg-slate-300">
             <div className="flex flex-row divide-x">
                 <div className="flex flex-col w-1/3 py-6 px-5">
-                    <div className="font-poppins text-bold">{props.data?.title}</div>
+                    <div className="font-poppins font-bold">{props.data?.title}</div>
                     <div className="font-poppins">{props.data?.company}</div>
-                    <img className="max-w-2xs pt-5 self-center" alt="company logo" src={images.companies[props.data.logo]}/>
+                    <div className="font-poppins text-xs">{props.data?.date}</div>
+                    <img className="max-w-2xs pt-5" alt="company logo" src={images.companies[props.data.logo]}/>
                 </div>
                 <ul className="flex flex-col px-10 py-6 w-2/3 list-disc">
                     {props.data.bullets.map(b => (
@@ -29,5 +30,5 @@ function Card(props) {
     );
   }
   
-  export default Card;
+  export default CardWork;
   
