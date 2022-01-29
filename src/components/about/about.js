@@ -2,7 +2,7 @@ import images from '../../assets/images';
 
 function About() {
     return (
-        <div className="component-container flex flex-col py-36 items-center">
+        <div className="component-container min-h-screen flex flex-col py-36 justify-center items-center">
             <div className="font-poppins text-4xl">ABOUT</div>
             <div className="rounded flex flex-col md:flex-row justify-evenly items-center pt-10 px-10">
                 <img className="animate-wipe w-full headshot max-w-xs" src={images.headshot} alt="LinkedIn Headshot"/>

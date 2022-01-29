@@ -2,6 +2,17 @@
   font-family: 'Poppins', sans-serif;
 }
 
+.top-slant {
+  clip-path: polygon(0 5%, 100% 0,100% 100%, 0% 95%);
+}
+
+.max-w-2xs {
+  max-width: 8rem;
+}
+
+.icon-sm {
+  height: 40px;
+}
 
 @keyframes slideInFromLeft {
   0% {
