@@ -10,6 +10,7 @@ import aspNet from "./icons/asp-dotnet.png"
 import aws from "./icons/aws.png"
 import azure from "./icons/azure.png"
 import c from "./icons/c.png"
+import chartjs from "./icons/chartjs.png"
 import cpp from "./icons/cpp.png"
 import csharp from "./icons/csharp.png"
 import css3 from "./icons/css3.png"
@@ -17,10 +18,14 @@ import django from "./icons/django.png"
 import docker from "./icons/docker.png"
 import dotnet from "./icons/dotnet.png"
 import dotnetCore from "./icons/dotnet-core.png"
+import express from "./icons/express.png"
 import ext from "./icons/extjs.png"
 import firebase from "./icons/firebase.png"
+import flask from "./icons/flask.png"
+import gcp from "./icons/gcp.png"
 import git from "./icons/git.png"
 import golang from "./icons/golang.png"
+import googleVision from "./icons/google-vision.png"
 import graphql from "./icons/graphql.png"
 import heroku from "./icons/heroku.png"
 import html5 from "./icons/html5.png"
@@ -32,16 +37,20 @@ import mysql from "./icons/mysql.png"
 import netlify from "./icons/netlify.png"
 import next from "./icons/next.png"
 import node from "./icons/node.png"
+import numpy from "./icons/numpy.png"
+import opencv from "./icons/opencv.png"
 import postman from "./icons/postman.png"
 import powershell from "./icons/powershell.png"
 import python from "./icons/python.png"
 import react from "./icons/react.png"
 import reactNative from "./icons/react-native.png"
 import reactRedux from "./icons/react-redux.png"
+import recaptcha from "./icons/recaptcha.png"
 import scratch from "./icons/scratch.png"
 import sqlServer from "./icons/sql-server.png"
 import swagger from "./icons/swagger.png"
 import tailwindcss from "./icons/tailwindcss.png"
+import tesseract from "./icons/tesseract.png"
 import vue from "./icons/vuejs.png"
 
 import sps from "./companies/sps.png"
@@ -49,6 +58,9 @@ import uptake from "./companies/uptake.png"
 import bdo from "./companies/bdo.png"
 import wish from "./companies/wish.png"
 import geekedu from "./companies/geekedu.png"
+
+import downArrow from "./svg/down-arrow.svg"
+import upArrow from "./svg/up-arrow.svg"
 
 let images = {
     headshot,
@@ -65,6 +77,7 @@ let images = {
         aws,
         azure,
         c,
+        chartjs,
         cpp,
         csharp,
         css3,
@@ -72,10 +85,14 @@ let images = {
         docker,
         dotnet,
         dotnetCore,
+        express,
         ext,
         firebase,
+        flask,
+        gcp,
         git,
         golang,
+        googleVision,
         graphql,
         heroku,
         html5,
@@ -87,16 +104,20 @@ let images = {
         netlify,
         next,
         node,
+        numpy,
+        opencv,
         postman,
         powershell,
         python,
         react,
         reactNative,
         reactRedux,
+        recaptcha,
         scratch,
         sqlServer,
         swagger,
         tailwindcss,
+        tesseract,
         vue
     },
     companies: {
@@ -105,6 +126,10 @@ let images = {
         bdo,
         wish,
         geekedu
+    },
+    svg: {
+        downArrow,
+        upArrow
     }
 }
 

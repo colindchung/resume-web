@@ -2,10 +2,13 @@
   font-family: 'Poppins', sans-serif;
 }
 
+.font-roboto-mono {
+  font-family: 'Roboto Mono', monospace;
+}
+
 .top-slant {
   clip-path: polygon(0 50px, 100% 0,100% 100%, 0 calc(100% - 50px));
 }
-
 
 .max-w-2xs {
   max-width: 8rem;
@@ -13,6 +16,15 @@
 
 .icon-sm {
   height: 40px;
+}
+
+.icon-xs {
+  height: 15px;
+}
+
+.slide-in {
+  transition: 1s;
+  left: 0;
 }
 
 @keyframes slideInFromLeft {
