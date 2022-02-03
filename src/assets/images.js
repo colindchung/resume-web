@@ -46,6 +46,7 @@ import react from "./icons/react.png"
 import reactNative from "./icons/react-native.png"
 import reactRedux from "./icons/react-redux.png"
 import recaptcha from "./icons/recaptcha.png"
+import replit from "./icons/replit.png"
 import scratch from "./icons/scratch.png"
 import sqlServer from "./icons/sql-server.png"
 import swagger from "./icons/swagger.png"
@@ -113,6 +114,7 @@ let images = {
         reactNative,
         reactRedux,
         recaptcha,
+        replit,
         scratch,
         sqlServer,
         swagger,
