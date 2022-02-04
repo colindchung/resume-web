@@ -17,7 +17,8 @@ const data = {
         "flask",
         "opencv",
         "tesseract"
-    ]
+    ],
+    links: []
 }
 
 export default data

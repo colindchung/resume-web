@@ -14,7 +14,8 @@ const data = {
         "react",
         "node",
         "googleVision"
-    ]
+    ],
+    links: []
 }
 
 export default data

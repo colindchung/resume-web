@@ -16,7 +16,8 @@ const data = {
         "python",
         "flask",
         "numpy"
-    ]
+    ],
+    links: []
 }
 
 export default data
