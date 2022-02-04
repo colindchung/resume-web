@@ -8,6 +8,18 @@ import abp from "./icons/abp.png"
 import angular from "./icons/angular.png"
 import aspNet from "./icons/asp-dotnet.png"
 import aws from "./icons/aws.png"
+import awsAcm from "./icons/aws-acm.png"
+import awsApiGateway from "./icons/aws-apigateway.png"
+import awsCognito from "./icons/aws-cognito.png"
+import awsDynamoDb from "./icons/aws-dynamodb.png"
+import awsEb from "./icons/aws-eb.png"
+import awsEc2 from "./icons/aws-ec2.png"
+import awsEcs from "./icons/aws-ecs.png"
+import awsIam from "./icons/aws-iam.png"
+import awsLambda from "./icons/aws-lambda.png"
+import awsRds from "./icons/aws-rds.png"
+import awsRoute53 from "./icons/aws-route53.png"
+import awsS3 from "./icons/aws-s3.png"
 import azure from "./icons/azure.png"
 import c from "./icons/c.png"
 import chartjs from "./icons/chartjs.png"
@@ -76,6 +88,18 @@ let images = {
         angular,
         aspNet,
         aws,
+        awsAcm,
+        awsApiGateway,
+        awsCognito,
+        awsDynamoDb,
+        awsEb,
+        awsEc2,
+        awsEcs,
+        awsIam,
+        awsLambda,
+        awsRds,
+        awsRoute53,
+        awsS3,
         azure,
         c,
         chartjs,
