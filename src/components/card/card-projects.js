@@ -12,7 +12,7 @@ function CardProjects(props) {
 
 
     return (
-        <div className="my-5 w-9/12 divide-y bg-slate-300">
+        <div className="my-5 w-11/12 md:w-9/12 lg:w-8/12 2xl:w-7/12 divide-y bg-slate-300">
             <div className="flex flex-col lg:flex-row divide-x">
                 <div className="flex flex-col lg:w-1/3 pt-5 pb-2 px-5 justify-between">
                     <div>
@@ -24,7 +24,7 @@ function CardProjects(props) {
                         Check out the 
                         {
                             props.data?.links.map(link => (
-                                <span className="ml-1">{ link.seq > 1 ? "or " : ""}<a target="_blank" rel="noopener noreferrer" className="underline" href={link.url}>{link.label}</a></span>
+                                <span key={link.seq} className="ml-1">{ link.seq > 1 ? "or " : ""}<a target="_blank" rel="noopener noreferrer" className="underline" href={link.url}>{link.label}</a></span>
                             ))
                         }
                     </div>
@@ -52,7 +52,7 @@ function CardProjects(props) {
                 <div className="font-poppins text-base pr-5">Tech Stack:</div>
                 {
                     props.data.stack.map(img => (
-                        <img className="icon-sm mx-3 my-1" src={images.logos[img]} alt="tech logo" key={img}/>
+                        <img key={img} className="icon-sm mx-3 my-1" src={images.logos[img]} alt="tech logo" key={img}/>
                     ))
                 }
             </div>

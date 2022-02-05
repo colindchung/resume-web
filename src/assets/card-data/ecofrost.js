@@ -14,6 +14,10 @@ const data = {
         "node",
         "netlify",
         "aws",
+        "awsEb",
+        "awsRds",
+        "awsRoute53",
+        "awsIam",
         "recaptcha"
     ],
     links: [
