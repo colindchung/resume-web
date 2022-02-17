@@ -35,7 +35,9 @@ function CardProjects(props) {
                     <Collapse in={detailsOpen}>
                         {
                             props.data?.bullets.map(b => (
-                                <div className='pt-2 text-sm md:text-base text-justify mr-5 md:mr-8 indent-8' key={b.slice(10)}>{b}</div>
+                                b.type === "text" ? (
+                                    <div className='pt-2 text-sm md:text-base text-justify mr-5 md:mr-8 indent-8' key={b.value.slice(10)}>{b.value}</div>
+                                ) : null
                             ))
                         }
                     </Collapse>

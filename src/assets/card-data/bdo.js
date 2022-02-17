@@ -16,6 +16,7 @@ const data = {
         "abp",
         "sqlServer",
         "angular",
+        "typescript",
         "powershell"
     ]
 }

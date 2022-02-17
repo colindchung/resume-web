@@ -6,6 +6,7 @@ import bk4 from "./backgrounds/bk4.jpg"
 
 import abp from "./icons/abp.png"
 import angular from "./icons/angular.png"
+import arduino from "./icons/arduino.png"
 import aspNet from "./icons/asp-dotnet.png"
 import aws from "./icons/aws.png"
 import awsAcm from "./icons/aws-acm.png"
@@ -21,6 +22,7 @@ import awsRds from "./icons/aws-rds.png"
 import awsRoute53 from "./icons/aws-route53.png"
 import awsS3 from "./icons/aws-s3.png"
 import azure from "./icons/azure.png"
+import bootstrap from "./icons/bootstrap.png"
 import c from "./icons/c.png"
 import chartjs from "./icons/chartjs.png"
 import cpp from "./icons/cpp.png"
@@ -43,6 +45,7 @@ import heroku from "./icons/heroku.png"
 import html5 from "./icons/html5.png"
 import java from "./icons/java.png"
 import js5 from "./icons/js5.png"
+import jquery from "./icons/jquery.png"
 import kafka from "./icons/kafka.png"
 import mongodb from "./icons/mongodb.png"
 import mysql from "./icons/mysql.png"
@@ -54,6 +57,7 @@ import opencv from "./icons/opencv.png"
 import postman from "./icons/postman.png"
 import powershell from "./icons/powershell.png"
 import python from "./icons/python.png"
+import raspberryPi from "./icons/raspberry-pi.png"
 import react from "./icons/react.png"
 import reactNative from "./icons/react-native.png"
 import reactRedux from "./icons/react-redux.png"
@@ -64,6 +68,7 @@ import sqlServer from "./icons/sql-server.png"
 import swagger from "./icons/swagger.png"
 import tailwindcss from "./icons/tailwindcss.png"
 import tesseract from "./icons/tesseract.png"
+import typescript from "./icons/typescript.png"
 import vue from "./icons/vuejs.png"
 
 import sps from "./companies/sps.png"
@@ -87,6 +92,7 @@ let images = {
         abp,
         angular,
         aspNet,
+        arduino,
         aws,
         awsAcm,
         awsApiGateway,
@@ -101,6 +107,7 @@ let images = {
         awsRoute53,
         awsS3,
         azure,
+        bootstrap,
         c,
         chartjs,
         cpp,
@@ -123,6 +130,7 @@ let images = {
         html5,
         java,
         js5,
+        jquery,
         kafka,
         mongodb,
         mysql,
@@ -134,6 +142,7 @@ let images = {
         postman,
         powershell,
         python,
+        raspberryPi,
         react,
         reactNative,
         reactRedux,
@@ -144,6 +153,7 @@ let images = {
         swagger,
         tailwindcss,
         tesseract,
+        typescript,
         vue
     },
     companies: {

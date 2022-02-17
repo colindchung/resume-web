@@ -38,7 +38,7 @@ function CardWork(props) {
                     </button>
                 </div>
             </div>
-            <div className="flex flex-col md:flex-row flex-wrap justify-center items-center p-3">
+            <div className="flex flex-col md:flex-row flex-wrap justify-center md:justify-start items-center p-3">
                 <div className="font-poppins text-base pr-5 mb-3 md:mb-0">Tech Stack:</div>
                 <div className="flex flex-row flex-wrap">
                     {
