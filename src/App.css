@@ -10,6 +10,10 @@
   clip-path: polygon(0 50px, 100% 0,100% 100%, 0 calc(100% - 50px));
 }
 
+.top-slant-reverse {
+  clip-path: polygon(0 0, 100% 50px,100% 100%, 0 100%);
+}
+
 .max-w-2xs {
   max-width: 8rem;
 }

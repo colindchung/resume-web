@@ -80,6 +80,12 @@ import geekedu from "./companies/geekedu.png"
 import downArrow from "./svg/down-arrow.svg"
 import upArrow from "./svg/up-arrow.svg"
 
+import devpost from "./contact/devpost.png"
+import facebook from "./contact/facebook.png"
+import github from "./contact/github.png"
+import instagram from "./contact/instagram.png"
+import linkedIn from "./contact/linkedin.png"
+
 let images = {
     headshot,
     backgrounds: {
@@ -166,6 +172,13 @@ let images = {
     svg: {
         downArrow,
         upArrow
+    },
+    contact: {
+        devpost,
+        facebook,
+        github,
+        instagram,
+        linkedIn
     }
 }
 
