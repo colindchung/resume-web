@@ -10,9 +10,9 @@ function Projects() {
             <div className="font-poppins text-4xl mb-10">PROJECTS</div>
 
             <CardProjects data={ecofrostData}/>
-            {/* <CardProjects data={healixData}/>
-            <CardProjects data={homewatchData}/>
-            <CardProjects data={billyData}/> */}
+            <CardProjects data={healixData}/>
+            {/* <CardProjects data={homewatchData}/> */}
+            {/* <CardProjects data={billyData}/> */}
         </div>
     );
   }

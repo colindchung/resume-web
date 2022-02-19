@@ -3,7 +3,7 @@ const data = {
     company: "EcoFrost Heating and Cooling",
     date: "Jan 2021 - May 2021",
     location: "Mississauga, Ontario",
-    description: "EcoFrost Heating and Cooling Solutions is a local HVAC (heating, ventilation, air conditioning) business located in the GTA. I was the developer for their website, and I was responsible for all aspects of the production besides the UI design. My tasks included development, testing, deployment and search engine optimization.",
+    description: "EcoFrost Heating and Cooling Solutions is a local HVAC (heating, ventilation, air conditioning) business located in the GTA. I was the developer for their website, and I was responsible for all aspects of the production besides the UI design. My primary responsibilities included development, testing, deployment and search engine optimization.",
     bullets: [
         {
             type: "text",
