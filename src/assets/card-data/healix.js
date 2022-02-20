@@ -15,12 +15,30 @@ const data = {
         }
     ],
     stack: [
-        "react",
-        "firebase",
-        "chartjs",
-        "python",
-        "flask",
-        "numpy"
+        {
+            tooltip: "React",
+            img: "react"
+        },
+        {
+            tooltip: "Google Firebase",
+            img: "firebase"
+        },
+        {
+            tooltip: "Chart.js",
+            img: "chartjs"
+        },
+        {
+            tooltip: "Python",
+            img: "python"
+        },
+        {
+            tooltip: "Flask",
+            img: "flask"
+        },
+        {
+            tooltip: "NumPy",
+            img: "numpy"
+        }
     ],
     links: [
         {

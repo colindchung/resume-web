@@ -20,15 +20,42 @@ const data = {
         }
     ],
     stack: [
-        "next",
-        "node",
-        "netlify",
-        "aws",
-        "awsEb",
-        "awsRds",
-        "awsRoute53",
-        "awsIam",
-        "recaptcha"
+        {
+            tooltip: "Next.js",
+            img: "next"
+        },
+        {
+            tooltip: "Node.js",
+            img: "node"
+        },
+        {
+            tooltip: "Netlify",
+            img: "netlify"
+        },
+        {
+            tooltip: "AWS",
+            img: "aws"
+        },
+        {
+            tooltip: "AWS Elastic Beanstalk",
+            img: "awsEb"
+        },
+        {
+            tooltip: "AWS RDS",
+            img: "awsRds"
+        },
+        {
+            tooltip: "AWS Route53",
+            img: "awsRoute53"
+        },
+        {
+            tooltip: "AWS IAM",
+            img: "awsIam"
+        },
+        {
+            tooltip: "Recaptcha",
+            img: "recaptcha"
+        }
     ],
     links: [
         {

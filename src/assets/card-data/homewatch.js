@@ -17,13 +17,34 @@ const data = {
         }
     ],
     stack: [
-        "react",
-        "reactNative",
-        "firebase",
-        "python",
-        "flask",
-        "opencv",
-        "tesseract"
+        {
+            tooltip: "React",
+            img: "react"
+        },
+        {
+            tooltip: "React Native",
+            img: "reactNative"
+        },
+        {
+            tooltip: "Google Firebase",
+            img: "firebase"
+        },
+        {
+            tooltip: "Python",
+            img: "python"
+        },
+        {
+            tooltip: "Flask",
+            img: "flask"
+        },
+        {
+            tooltip: "OpenCV",
+            img: "opencv"
+        },
+        {
+            tooltip: "Tesseract OCR",
+            img: "tesseract"
+        }
     ],
     links: [
         {

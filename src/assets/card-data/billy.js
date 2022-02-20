@@ -9,11 +9,26 @@ const data = {
         "Leveraged Google Vision OCR Engine to analyze images of receipts, parse relevant data points and update the web application in real-time."
     ],
     stack: [
-        "mongodb",
-        "express",
-        "react",
-        "node",
-        "googleVision"
+        {
+            tooltip: "MongoDb",
+            img: "mongodb"
+        },
+        {
+            tooltip: "Express.js",
+            img: "express"
+        },
+        {
+            tooltip: "React",
+            img: "react"
+        },
+        {
+            tooltip: "Node.js",
+            img: "node"
+        },
+        {
+            tooltip: "Google Cloud Vision",
+            img: "googleVision"
+        }
     ],
     links: []
 }

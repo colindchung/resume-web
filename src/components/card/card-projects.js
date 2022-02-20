@@ -53,8 +53,8 @@ function CardProjects(props) {
             <div className="flex flex-row flex-wrap items-center p-3">
                 <div className="font-poppins text-base pr-5">Tech Stack:</div>
                 {
-                    props.data.stack.map(img => (
-                        <img key={img} className="icon-sm mx-3 my-1" src={images.logos[img]} alt="tech logo" key={img}/>
+                    props.data.stack.map(i => (
+                        <img className="icon-sm mx-3 my-1" src={images.logos[i.img]} alt="tech logo" key={i.img}/>
                     ))
                 }
             </div>
