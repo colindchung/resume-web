@@ -11,7 +11,7 @@ function Projects() {
 
             <CardProjects data={ecofrostData}/>
             <CardProjects data={healixData}/>
-            {/* <CardProjects data={homewatchData}/> */}
+            <CardProjects data={homewatchData}/>
             {/* <CardProjects data={billyData}/> */}
         </div>
     );

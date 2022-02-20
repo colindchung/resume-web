@@ -11,12 +11,30 @@ const data = {
         "The other thing I had to do was help develop a new security framework. Since the applications needed to be used by multiple clients, we needed to support multitenancy and we created a role-based security framework which applied the appropriate access rules to the different parts of the product. I created and seeded the required tables in the database, and configured the access protocols in the frontend to hide the unauthorized features."
     ],
     stack: [
-        "csharp",
-        "dotnet",
-        "aspNet",
-        "sqlServer",
-        "ext",
-        "node"
+        {
+            tooltip: "C#",
+            img: "csharp"
+        },
+        {
+            tooltip: ".NET",
+            img: "dotnet"
+        },
+        {
+            tooltip: "ASP.NET",
+            img: "aspNet"
+        },
+        {
+            tooltip: "Microsoft SQL Server",
+            img: "sqlServer"
+        },
+        {
+            tooltip: "Ext.js",
+            img: "ext"
+        },
+        {
+            tooltip: "Node.js",
+            img: "node"
+        }
     ]
 }
 

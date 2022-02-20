@@ -11,10 +11,22 @@ const data = {
         "The last aspect of the job is trial lessons. Geek Education offers a free trial lesson for all students to decide if they want to pursue the lessons. I give a dry run of the introductory lesson and encourage the students to sign up. This is notable experience for me because I am directly involved in the business and it is important for me to give a lesson which is enjoyable and an appropriate level of difficulty."
     ],
     stack: [
-        "python",
-        "java",
-        "scratch",
-        "replit"
+        {
+            tooltip: "Python",
+            img: "python"
+        },
+        {
+            tooltip: "Java",
+            img: "java"
+        },
+        {
+            tooltip: "Scratch",
+            img: "scratch",
+        },
+        {
+            tooltip: "Repl.it",
+            img: "replit"
+        }
     ]
 }
 

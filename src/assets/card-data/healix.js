@@ -3,7 +3,7 @@ const data = {
     company: "DeltaHacks VI",
     date: "Jan 2020",
     location: "Hamilton, Ontario",
-    description: "Healix was a product I made with two other peers at DeltaHacks 2020. It is a digital therapy solution that allows users to take therapy sessions from the comfort of their home. Since there is stigma around mental health and also an emphasis on online resources due to the pandemic, it would be useful to allow people to take AI powered therapy sessions at their own comfort. At a high level, the application allows people to record videos answering prompts about their mental health, analyze their emotions and deliver some principal data that could be useful for therapists to improve their sessions.",
+    description: "Healix is a product I made with two other peers at DeltaHacks 2020. It is a digital therapy solution that allows users to take therapy sessions from the comfort of their home. Since there is stigma around mental health and also an emphasis on online resources due to the pandemic, it would be useful to allow people to take AI powered therapy sessions at their own comfort. At a high level, the application allows people to record videos answering prompts about their mental health, analyze their emotions and deliver some principal data that could be useful for therapists to improve their sessions.",
     bullets: [
         {
             type: "text",

@@ -11,13 +11,34 @@ const data = {
         "In my second internship, I was given the opportunity to take more ownership of a project when I joined a data mining project as the primary developer. I was given the freedom to design the database schema, build the backend data models and create the API endpoints. I was also in charge of configuring multitenancy for commercial use and a role-based security framework."
     ],
     stack: [
-        "csharp",
-        "dotnet",
-        "abp",
-        "sqlServer",
-        "angular",
-        "typescript",
-        "powershell"
+        {
+            tooltip: "C#",
+            img: "csharp"
+        },
+        {
+            tooltip: ".NET",
+            img: "dotnet"
+        },
+        {
+            tooltip: "ABP Framework",
+            img: "abp"
+        },
+        {
+            tooltip: "Microsoft SQL Server",
+            img: "sqlServer"
+        },
+        {
+            tooltip: "Angular 7",
+            img: "angular"
+        },
+        {
+            tooltip: "TypeScript",
+            img: "typescript"
+        },
+        {
+            tooltip: "Powershell",
+            img: "powershell"
+        }
     ]
 }
 

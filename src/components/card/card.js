@@ -42,8 +42,8 @@ function CardWork(props) {
                 <div className="font-poppins text-base pr-5 mb-3 md:mb-0">Tech Stack:</div>
                 <div className="flex flex-row flex-wrap">
                     {
-                        props.data.stack.map(img => (
-                            <img className="icon-sm mx-3 my-1" src={images.logos[img]} alt="tech logo" key={img}/>
+                        props.data.stack.map(i => (
+                            <img data-tooltip-target="tooltip-bottom" data-tooltip-placement="bottom" className="icon-sm mx-3 my-1" src={images.logos[i.img]} alt="tech logo" key={i.img}/>
                         ))
                     }   
                 </div>

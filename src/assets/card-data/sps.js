@@ -10,15 +10,42 @@ const data = {
         "Another task of mine was to support 3 applications through the upgrade of one of our third-party vendors. I had to rewrite a lot of functionality to work from a console application in the .NET Core framework so that it was compatible with the new changes. In the process, I was able to find some redundant parts of the workflow and proposed some changes to automate the functionality of some of our manual jobs. Part of this upgrade was configuring some jobs as scheduled ECS tasks in AWS. I had to configure the permissions using ansible files and configure the listener rules to control the traffic."
     ],
     stack: [
-        "csharp",
-        "dotnet",
-        "dotnetCore",
-        "aspNet",
-        "sqlServer",
-        "aws",
-        "awsIam",
-        "awsEcs",
-        "docker"
+        {
+            tooltip: "C#",
+            img: "csharp"
+        },
+        {
+            tooltip: ".NET",
+            img: "dotnet"
+        },
+        {
+            tooltip: ".NET Core",
+            img: "dotnetCore"
+        },
+        {
+            tooltip: "ASP.NET",
+            img: "aspNet"
+        },
+        {
+            tooltip: "Microsoft SQL Server",
+            img: "sqlServer"
+        },
+        {
+            tooltip: "AWS",
+            img: "aws"
+        },
+        {
+            tooltip: "AWS IAM",
+            img: "awsIam"
+        },
+        {
+            tooltip: "AWS ECS",
+            img: "awsEcs"
+        },
+        {
+            tooltip: "Docker",
+            img: "docker"
+        }
     ]
 }
 
