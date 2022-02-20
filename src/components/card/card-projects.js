@@ -1,6 +1,7 @@
 import images from '../../assets/images'
 import React, { useState } from 'react'
 import Collapse from '@mui/material/Collapse'
+import Tooltip from '@mui/material/Tooltip'
 
 function CardProjects(props) {
 
@@ -50,11 +51,13 @@ function CardProjects(props) {
                     </button>
                 </div>
             </div>
-            <div className="flex flex-row flex-wrap items-center p-3">
+            <div className="flex flex-col md:flex-row flex-wrap justify-center md:justify-start items-center p-3">
                 <div className="font-poppins text-base pr-5">Tech Stack:</div>
                 {
                     props.data.stack.map(i => (
-                        <img className="icon-sm mx-3 my-1" src={images.logos[i.img]} alt="tech logo" key={i.img}/>
+                        <Tooltip title={i.tooltip}>
+                            <img className="icon-sm mx-3 my-1" src={images.logos[i.img]} alt="tech logo" key={i.img}/>
+                        </Tooltip>
                     ))
                 }
             </div>

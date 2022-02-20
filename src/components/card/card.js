@@ -1,6 +1,7 @@
 import images from '../../assets/images'
 import React, { useState } from 'react'
 import Collapse from '@mui/material/Collapse'
+import Tooltip from '@mui/material/Tooltip'
 
 function CardWork(props) {
 
@@ -43,7 +44,9 @@ function CardWork(props) {
                 <div className="flex flex-row flex-wrap">
                     {
                         props.data.stack.map(i => (
-                            <img data-tooltip-target="tooltip-bottom" data-tooltip-placement="bottom" className="icon-sm mx-3 my-1" src={images.logos[i.img]} alt="tech logo" key={i.img}/>
+                            <Tooltip title={i.tooltip}>
+                                <img data-tooltip-target="tooltip-bottom" data-tooltip-placement="bottom" className="icon-sm mx-3 my-1" src={images.logos[i.img]} alt="tech logo" key={i.img}/>
+                            </Tooltip>
                         ))
                     }   
                 </div>

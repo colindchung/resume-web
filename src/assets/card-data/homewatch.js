@@ -23,7 +23,7 @@ const data = {
         },
         {
             tooltip: "React Native",
-            img: "reactNative"
+            img: "react"
         },
         {
             tooltip: "Google Firebase",
@@ -40,10 +40,6 @@ const data = {
         {
             tooltip: "OpenCV",
             img: "opencv"
-        },
-        {
-            tooltip: "Tesseract OCR",
-            img: "tesseract"
         }
     ],
     links: [
