@@ -25,6 +25,10 @@ const data = {
             img: "next"
         },
         {
+            tooltip: "Tailwind CSS",
+            img: "tailwindcss"
+        },
+        {
             tooltip: "Node.js",
             img: "node"
         },
