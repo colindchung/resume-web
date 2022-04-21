@@ -41,12 +41,14 @@ import git from "./icons/git.png"
 import golang from "./icons/golang.png"
 import googleVision from "./icons/google-vision.png"
 import graphql from "./icons/graphql.png"
+import grpc from "./icons/grpc.png"
 import heroku from "./icons/heroku.png"
 import html5 from "./icons/html5.png"
 import java from "./icons/java.png"
 import js5 from "./icons/js5.png"
 import jquery from "./icons/jquery.png"
 import kafka from "./icons/kafka.png"
+import kubernetes from "./icons/kubernetes.png"
 import mongodb from "./icons/mongodb.png"
 import mysql from "./icons/mysql.png"
 import netlify from "./icons/netlify.png"
@@ -132,12 +134,14 @@ let images = {
         golang,
         googleVision,
         graphql,
+        grpc,
         heroku,
         html5,
         java,
         js5,
         jquery,
         kafka,
+        kubernetes,
         mongodb,
         mysql,
         netlify,
