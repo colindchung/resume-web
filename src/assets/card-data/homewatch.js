@@ -1,6 +1,6 @@
 const data = {
     title: "HomeWatch",
-    company: "Hack The North 2020",
+    company: "Hack The North 2019",
     date: "Sep 2019",
     location: "Waterloo, Ontario",
     github: "https://github.com/colindchung/HomeWatch",
