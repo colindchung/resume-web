@@ -87,6 +87,7 @@ import facebook from "./contact/facebook.png"
 import github from "./contact/github.png"
 import instagram from "./contact/instagram.png"
 import linkedIn from "./contact/linkedin.png"
+import resume from "./contact/resume.png"
 
 let images = {
     headshot,
@@ -182,7 +183,8 @@ let images = {
         facebook,
         github,
         instagram,
-        linkedIn
+        linkedIn,
+        resume
     }
 }
 
