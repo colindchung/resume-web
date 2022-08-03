@@ -16,7 +16,6 @@ function Icon(props) {
                     </a>
                 )
             }
-            
         </div>
     )
 }

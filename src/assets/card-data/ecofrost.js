@@ -11,7 +11,7 @@ const data = {
         },
         {
             type: "text",
-            value: "Finding a secure host to serve both the frontend and backend was difficult. Keeping cost in mind, I decided to host the frontend in Netlify and the backend using an Elastic Beanstalk environment in Amazon Web Services. The backend uses ACM for certificate management and RDS for the database."
+            value: "Finding a secure host to serve both the frontend and backend was difficult. Keeping cost in mind, I decided to host the frontend in Netlify and the backend using a Docker container hosted in an AWS ECS cluster. The backend uses ACM for certificate management and MongoDB for the database."
 
         },
         {
@@ -33,6 +33,14 @@ const data = {
             img: "node"
         },
         {
+            tooltip: "MongoDB",
+            img: "mongodb"
+        },
+        {
+            tooltip: "Docker",
+            img: "docker"
+        },
+        {
             tooltip: "Netlify",
             img: "netlify"
         },
@@ -41,23 +49,7 @@ const data = {
             img: "aws"
         },
         {
-            tooltip: "AWS Elastic Beanstalk",
-            img: "awsEb"
-        },
-        {
-            tooltip: "AWS RDS",
-            img: "awsRds"
-        },
-        {
-            tooltip: "AWS Route53",
-            img: "awsRoute53"
-        },
-        {
-            tooltip: "AWS IAM",
-            img: "awsIam"
-        },
-        {
-            tooltip: "Recaptcha",
+            tooltip: "reCAPTCHA",
             img: "recaptcha"
         }
     ],
