@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 function Icon(props) {
     return (
-        <div className="p-2 mx-3 hover:bg-teal-500 rounded-sm">
+        <div className="p-2 mx-3 hover:bg-slate-300 rounded-sm">
             {
                 props.download ? (
                     <a href={props.href} target="_blank" rel="noopener noreferrer">
@@ -22,12 +22,12 @@ function Icon(props) {
 
 function Contact() {
     return (
-        <div className="component-container flex flex-col py-20 items-center bg-slate-700">
+        <div className="component-container flex flex-col py-20 items-center">
             <div className="flex flex-row">
-                <Icon href="https://www.linkedin.com/in/colindchung/" img="linkedIn" download={false}/>
-                <Icon href="https://github.com/colindchung" img="github" download={false}/>
-                <Icon href="https://devpost.com/colindchung" img="devpost" download={false}/>
-                <Icon href={resume} img="resume" download={true}/>
+                <Icon href="https://www.linkedin.com/in/colindchung/" img="linkedInTeal" download={false}/>
+                <Icon href="https://github.com/colindchung" img="githubTeal" download={false}/>
+                <Icon href="https://devpost.com/colindchung" img="devpostTeal" download={false}/>
+                <Icon href={resume} img="resumeTeal" download={true}/>
             </div>
         </div>
     )

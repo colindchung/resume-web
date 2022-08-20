@@ -83,11 +83,17 @@ import downArrow from "./svg/down-arrow.svg"
 import upArrow from "./svg/up-arrow.svg"
 
 import devpost from "./contact/devpost.png"
+import devpostTeal from "./contact/devpost-teal.png"
 import facebook from "./contact/facebook.png"
+import facebookTeal from "./contact/facebook-teal.png"
 import github from "./contact/github.png"
+import githubTeal from "./contact/github-teal.png"
 import instagram from "./contact/instagram.png"
+import instagramTeal from "./contact/instagram-teal.png"
 import linkedIn from "./contact/linkedin.png"
+import linkedInTeal from "./contact/linkedin-teal.png"
 import resume from "./contact/resume.png"
+import resumeTeal from "./contact/resume-teal.png"
 
 let images = {
     headshot,
@@ -180,11 +186,17 @@ let images = {
     },
     contact: {
         devpost,
+        devpostTeal,
         facebook,
+        facebookTeal,
         github,
+        githubTeal,
         instagram,
+        instagramTeal,
         linkedIn,
-        resume
+        linkedInTeal,
+        resume,
+        resumeTeal
     }
 }
 
