@@ -49,6 +49,10 @@ const data = {
             img: "aws"
         },
         {
+            tooltip: "Figma",
+            img: "figma"
+        },
+        {
             tooltip: "reCAPTCHA",
             img: "recaptcha"
         }

@@ -34,6 +34,7 @@ import dotnet from "./icons/dotnet.png"
 import dotnetCore from "./icons/dotnet-core.png"
 import express from "./icons/express.png"
 import ext from "./icons/extjs.png"
+import figma from "./icons/figma.png"
 import firebase from "./icons/firebase.png"
 import flask from "./icons/flask.png"
 import gcp from "./icons/gcp.png"
@@ -49,6 +50,7 @@ import js5 from "./icons/js5.png"
 import jquery from "./icons/jquery.png"
 import kafka from "./icons/kafka.png"
 import kubernetes from "./icons/kubernetes.png"
+import linux from "./icons/linux.png"
 import mongodb from "./icons/mongodb.png"
 import mysql from "./icons/mysql.png"
 import netlify from "./icons/netlify.png"
@@ -71,6 +73,7 @@ import swagger from "./icons/swagger.png"
 import tailwindcss from "./icons/tailwindcss.png"
 import tesseract from "./icons/tesseract.png"
 import typescript from "./icons/typescript.png"
+import ubuntu from "./icons/ubuntu.png"
 import vue from "./icons/vuejs.png"
 
 import sps from "./companies/sps.png"
@@ -78,6 +81,7 @@ import uptake from "./companies/uptake.png"
 import bdo from "./companies/bdo.png"
 import wish from "./companies/wish.png"
 import geekedu from "./companies/geekedu.png"
+import waterloo from "./companies/waterloo.png"
 
 import downArrow from "./svg/down-arrow.svg"
 import upArrow from "./svg/up-arrow.svg"
@@ -94,6 +98,8 @@ import linkedIn from "./contact/linkedin.png"
 import linkedInTeal from "./contact/linkedin-teal.png"
 import resume from "./contact/resume.png"
 import resumeTeal from "./contact/resume-teal.png"
+import transcript from "./contact/transcript.png"
+import transcriptTeal from "./contact/transcript-teal.png"
 
 let images = {
     headshot,
@@ -134,6 +140,7 @@ let images = {
         dotnetCore,
         express,
         ext,
+        figma,
         firebase,
         flask,
         gcp,
@@ -149,6 +156,7 @@ let images = {
         jquery,
         kafka,
         kubernetes,
+        linux,
         mongodb,
         mysql,
         netlify,
@@ -171,6 +179,7 @@ let images = {
         tailwindcss,
         tesseract,
         typescript,
+        ubuntu,
         vue
     },
     companies: {
@@ -178,7 +187,8 @@ let images = {
         uptake,
         bdo,
         wish,
-        geekedu
+        geekedu,
+        waterloo
     },
     svg: {
         downArrow,
@@ -196,7 +206,9 @@ let images = {
         linkedIn,
         linkedInTeal,
         resume,
-        resumeTeal
+        resumeTeal,
+        transcript,
+        transcriptTeal
     }
 }
 
