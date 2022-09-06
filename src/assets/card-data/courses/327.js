@@ -9,8 +9,8 @@ const data = {
     topics: "The course focused on performance analysis, memory management and fault tolerance of digitial hardware programs using System Verilog. The labs were centered around pipelining, timing analysis and signal processing and they culminated with building a systolic array used for matrix multiplication that modelled Google's Tensor Processing Unit (TPU).",
     stack: [
         {
-            tooltip: "System Verilog",
-            img: "verilog"
+            tooltip: "VHDL",
+            img: "vhdl"
         },
         {
             tooltip: "Linux",

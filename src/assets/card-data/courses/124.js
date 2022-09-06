@@ -3,7 +3,7 @@ const data = {
     title: "ECE124: Digital Circuits and Systems",
     company: "University of Waterloo",
     logo: "waterloo",
-    date: "Sep 2019 - Dec 2019",
+    date: "May 2019 - Aug 2019",
     grade: "87",
     description: "Number systems and Boolean arithmetic. Boolean algebra and simplification of Boolean functions. Combinational circuits. Sequential circuits; design and implementation. Hardware description languages. Timing analysis. Implementation technologies.",
     topics: "Implemented boolean logic, timing analysis and Moore/Mealy state machines on custom FPGA boards using VHDL. The labs focused primarily on parallel hardware programming paradigms culminating with the design and implementation of a user controllable arcade-style claw machine.",
