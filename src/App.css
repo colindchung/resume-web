@@ -14,6 +14,10 @@
   clip-path: polygon(0 0, 100% 50px,100% 100%, 0 100%);
 }
 
+.max-w-3xs {
+  max-width: 6rem;
+}
+
 .max-w-2xs {
   max-width: 8rem;
 }

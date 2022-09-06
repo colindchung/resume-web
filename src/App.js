@@ -3,6 +3,7 @@ import Banner from './components/banner/banner';
 import About from './components/about/about';
 import Work from './components/work/work';
 import Projects from './components/projects/projects';
+import Courses from './components/courses/courses';
 import Contact from './components/contact/contact';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <About/>
       <Work/>
       <Projects/>
+      <Courses/>
       <Contact/>
     </div>
   );
