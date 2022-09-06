@@ -7,6 +7,7 @@ import bk4 from "./backgrounds/bk4.jpg"
 import abp from "./icons/abp.png"
 import angular from "./icons/angular.png"
 import arduino from "./icons/arduino.png"
+import artifactory from "./icons/artifactory.png"
 import aspNet from "./icons/asp-dotnet.png"
 import aws from "./icons/aws.png"
 import awsAcm from "./icons/aws-acm.png"
@@ -22,6 +23,7 @@ import awsRds from "./icons/aws-rds.png"
 import awsRoute53 from "./icons/aws-route53.png"
 import awsS3 from "./icons/aws-s3.png"
 import azure from "./icons/azure.png"
+import azureAks from "./icons/azure-aks.png"
 import bootstrap from "./icons/bootstrap.png"
 import c from "./icons/c.png"
 import chartjs from "./icons/chartjs.png"
@@ -61,6 +63,7 @@ import opencv from "./icons/opencv.png"
 import postman from "./icons/postman.png"
 import powershell from "./icons/powershell.png"
 import python from "./icons/python.png"
+import quartusPrime from "./icons/quartus-prime.png"
 import raspberryPi from "./icons/raspberry-pi.png"
 import react from "./icons/react.png"
 import reactNative from "./icons/react-native.png"
@@ -68,12 +71,17 @@ import reactRedux from "./icons/react-redux.png"
 import recaptcha from "./icons/recaptcha.png"
 import replit from "./icons/replit.png"
 import scratch from "./icons/scratch.png"
+import snyk from "./icons/snyk"
+import sonarqube from "./icons/sonarqube"
 import sqlServer from "./icons/sql-server.png"
 import swagger from "./icons/swagger.png"
 import tailwindcss from "./icons/tailwindcss.png"
 import tesseract from "./icons/tesseract.png"
+import terraform from "./icons/terraform.png"
 import typescript from "./icons/typescript.png"
 import ubuntu from "./icons/ubuntu.png"
+import verilog from "./icons/verilog.png"
+import vhdl from "./icons/vhdl.png"
 import vue from "./icons/vuejs.png"
 
 import sps from "./companies/sps.png"
@@ -82,6 +90,7 @@ import bdo from "./companies/bdo.png"
 import wish from "./companies/wish.png"
 import geekedu from "./companies/geekedu.png"
 import waterloo from "./companies/waterloo.png"
+import manulife from "./companies/manulife.png"
 
 import downArrow from "./svg/down-arrow.svg"
 import upArrow from "./svg/up-arrow.svg"
@@ -114,6 +123,7 @@ let images = {
         angular,
         aspNet,
         arduino,
+        artifactory,
         aws,
         awsAcm,
         awsApiGateway,
@@ -128,6 +138,7 @@ let images = {
         awsRoute53,
         awsS3,
         azure,
+        azureAks,
         bootstrap,
         c,
         chartjs,
@@ -167,6 +178,7 @@ let images = {
         postman,
         powershell,
         python,
+        quartusPrime,
         raspberryPi,
         react,
         reactNative,
@@ -174,12 +186,17 @@ let images = {
         recaptcha,
         replit,
         scratch,
+        snyk,
+        sonarqube,
         sqlServer,
         swagger,
         tailwindcss,
         tesseract,
+        terraform,
         typescript,
         ubuntu,
+        verilog,
+        vhdl,
         vue
     },
     companies: {
@@ -188,7 +205,8 @@ let images = {
         bdo,
         wish,
         geekedu,
-        waterloo
+        waterloo,
+        manulife
     },
     svg: {
         downArrow,
