@@ -6,6 +6,11 @@ import bk4 from "./backgrounds/bk4.jpg"
 
 import abp from "./icons/abp.png"
 import angular from "./icons/angular.png"
+import apacheHadoop from "./icons/apache-hadoop.png"
+import apacheKafka from "./icons/apache-kafka.png"
+import apacheSpark from "./icons/apache-spark.png"
+import apacheThrift from "./icons/apache-thrift.png"
+import apacheZookeeper from "./icons/apache-zookeeper.png"
 import arduino from "./icons/arduino.png"
 import artifactory from "./icons/artifactory.png"
 import aspNet from "./icons/asp-dotnet.png"
@@ -50,7 +55,6 @@ import html5 from "./icons/html5.png"
 import java from "./icons/java.png"
 import js5 from "./icons/js5.png"
 import jquery from "./icons/jquery.png"
-import kafka from "./icons/kafka.png"
 import kubernetes from "./icons/kubernetes.png"
 import linux from "./icons/linux.png"
 import mongodb from "./icons/mongodb.png"
@@ -70,6 +74,7 @@ import reactNative from "./icons/react-native.png"
 import reactRedux from "./icons/react-redux.png"
 import recaptcha from "./icons/recaptcha.png"
 import replit from "./icons/replit.png"
+import scala from "./icons/scala.png"
 import scratch from "./icons/scratch.png"
 import snyk from "./icons/snyk.png"
 import sonarqube from "./icons/sonarqube.png"
@@ -121,6 +126,11 @@ let images = {
     logos: {
         abp,
         angular,
+        apacheHadoop,
+        apacheKafka,
+        apacheSpark,
+        apacheThrift,
+        apacheZookeeper,
         aspNet,
         arduino,
         artifactory,
@@ -165,7 +175,6 @@ let images = {
         java,
         js5,
         jquery,
-        kafka,
         kubernetes,
         linux,
         mongodb,
@@ -185,6 +194,7 @@ let images = {
         reactRedux,
         recaptcha,
         replit,
+        scala,
         scratch,
         snyk,
         sonarqube,
