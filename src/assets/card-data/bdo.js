@@ -2,7 +2,7 @@ const data = {
     title: "Full-Stack Microsoft Developer",
     company: "BDO Canada LLP",
     logo: "bdo",
-    date: "May 2020 - Aug 2020, Jan 2021 - Apr 2021",
+    date: "May 2020 - Aug 2020; Jan 2021 - Apr 2021",
     location: "Mississauga, Ontario",
     description: "I joined BDO Canada as a Full-Stack Microsoft Developer for my 3rd and 4th Co-op placements. Both terms were remote due to COVID 19, but I got to work on several projects ranging from internal tools and client facing applications. Some highlights of my work at BDO include the database and backend design for a client facing application, creating an email invoice automation tool and implementing full-stack features for several applications.",
     bullets: [
