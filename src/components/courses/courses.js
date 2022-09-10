@@ -9,12 +9,14 @@ import ece320Data from '../../assets/card-data/courses/320'
 import ece356Data from '../../assets/card-data/courses/356'
 import ece358Data from '../../assets/card-data/courses/358'
 import ece454Data from '../../assets/card-data/courses/454'
+import ece457aData from '../../assets/card-data/courses/457a'
 
 function Courses() {
     return (
         <div className="component-container flex flex-col pt-48 pb-64 items-center bg-slate-700 min-h-screen top-slant">
             <div className="font-poppins text-4xl text-teal-500 mb-10">COURSE WORK</div>
 
+            <CardCourses data={ece457aData}/>
             <CardCourses data={ece454Data}/>
             <CardCourses data={ece358Data}/>
             <CardCourses data={ece356Data}/>

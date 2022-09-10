@@ -57,6 +57,7 @@ import js5 from "./icons/js5.png"
 import jquery from "./icons/jquery.png"
 import kubernetes from "./icons/kubernetes.png"
 import linux from "./icons/linux.png"
+import matlab from "./icons/matlab.png"
 import mongodb from "./icons/mongodb.png"
 import mysql from "./icons/mysql.png"
 import netlify from "./icons/netlify.png"
@@ -177,6 +178,7 @@ let images = {
         jquery,
         kubernetes,
         linux,
+        matlab,
         mongodb,
         mysql,
         netlify,
