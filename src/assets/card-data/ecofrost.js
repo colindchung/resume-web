@@ -1,22 +1,22 @@
 const data = {
     title: "Technical Lead",
-    company: "EcoFrost Heating and Cooling",
+    company: "Ecofrost Heating and Cooling",
     date: "Jan 2021 - May 2021",
     location: "Mississauga, Ontario",
-    description: "EcoFrost Heating and Cooling Solutions is a local HVAC (heating, ventilation, air conditioning) business located in the GTA. I was the developer for their website, and I was responsible for all aspects of the production besides the UI design. My primary responsibilities included development, testing, deployment and search engine optimization.",
+    description: "Ecofrost Heating and Cooling Solutions is a local HVAC (heating, ventilation, air conditioning) business located in the GTA. I am in charge of all their technical needs, and I am responsible for all aspects of the technical infrastructure besides the UI design. My primary responsibilities include development, testing, deployment and search engine optimization. As they are planning on opening a physical store, I am also working on fleshing out a new site for them which includes inventory management, online checkout and parts reservation, invoicing and more.",
     bullets: [
         {
             type: "text",
-            value: "The first task in building the website was taking the design and replicating it in the front end and making it responsive to properly render on both desktop and mobile devices. Next, I had to set up the backend to respond to requests for filtering and return data about the products, forward email messages sent from the client and verifying reCaptchas."
+            value: "The notable features of the website include an in-house payment solution to reduce cash payments and processing fees, a parts picker (based on customer's home specifications), integration with Google Business (for reviews, location and hours), and a contact form with reCAPTCHA verification. Currently, I am working on releasing Quickbooks integration to production so that live inventory can be accurate on the website without any manual intervention."
         },
         {
             type: "text",
-            value: "Finding a secure host to serve both the frontend and backend was difficult. Keeping cost in mind, I decided to host the frontend in Netlify and the backend using a Docker container hosted in an AWS ECS cluster. The backend uses ACM for certificate management and MongoDB for the database."
+            value: "Finding a secure host to serve both the frontend and backend was difficult. Keeping cost in mind, I decided to host the frontend in Netlify and the backend using a Docker container hosted in a load-balanced AWS Elastic Beanstalk instance. The backend uses ACM for certificate management, API Gateway for rate limiting and Supabase for the primary relational database."
 
         },
         {
             type: "text",
-            value: "The last aspect of the development process was search engine optimization (SEO). Since EcoFrost is a small business, it is important that they gain exposure through showing up on Google search results. One of the largest issues with a standard React app is that by default, it renders on the client side, and thus appears to be an empty site for web crawlers. To improve SEO, I migrated the application to Next.js so that the website renders server side. There were many other small optimizations such as the types of DOM elements and attributes we used, metadata and keyword optimization, mobile-friendliness and performance tuning."
+            value: "The last aspect of the development process was search engine optimization (SEO). Since Ecofrost is a small business, it is important that they gain exposure through Google search results. One of the largest issues with React is that it renders on the client side, and thus appears to be an empty site for web crawlers. To improve SEO, I migrated the application to Next.js so that the website renders server side. There were many other optimizations such as integration with Google Business, mobile-responsiveness, keywords and performance tuning which help the business get more clicks."
         }
     ],
     stack: [
@@ -33,8 +33,8 @@ const data = {
             img: "node"
         },
         {
-            tooltip: "MongoDB",
-            img: "mongodb"
+            tooltip: "Supabase",
+            img: "supabase"
         },
         {
             tooltip: "Docker",
@@ -60,7 +60,7 @@ const data = {
     links: [
         {
             label: "website",
-            url: "https://www.ecofrostheating.com",
+            url: "https://www.Ecofrostheating.com",
             seq: 1
         }
     ]

@@ -80,6 +80,7 @@ import scratch from "./icons/scratch.png"
 import snyk from "./icons/snyk.png"
 import sonarqube from "./icons/sonarqube.png"
 import sqlServer from "./icons/sql-server.png"
+import supabase from "./icons/supabase.png"
 import swagger from "./icons/swagger.png"
 import tailwindcss from "./icons/tailwindcss.png"
 import tesseract from "./icons/tesseract.png"
@@ -202,6 +203,7 @@ let images = {
         sonarqube,
         sqlServer,
         swagger,
+        supabase,
         tailwindcss,
         tesseract,
         terraform,
