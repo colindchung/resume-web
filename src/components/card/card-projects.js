@@ -37,7 +37,7 @@ function CardProjects(props) {
                         {
                             props.data?.bullets.map(b => (
                                 b.type === "text" ? (
-                                    <div className='pt-2 text-sm md:text-base mr-5 md:mr-8 indent-8' key={b.value.slice(10)}>{b.value}</div>
+                                    <div className='pt-2 text-sm md:text-base text-justify mr-5 md:mr-8 indent-8' key={b.value.slice(10)}>{b.value}</div>
                                 ) : null
                             ))
                         }
