@@ -1,6 +1,6 @@
 import images from '../../assets/images'
 import resume from '../../assets/resume.pdf'
-import transcript from '../../assets/transcript.pdf'
+// import transcript from '../../assets/transcript.pdf'
 import { Tooltip } from '@mui/material'
 
 function Icon(props) {
@@ -31,7 +31,7 @@ function Contact() {
                 <Icon href="https://github.com/colindchung" img="githubTeal" download={false} tooltip="GitHub"/>
                 <Icon href="https://devpost.com/colindchung" img="devpostTeal" download={false} tooltip="Devpost"/>
                 <Icon href={resume} img="resumeTeal" download={true} tooltip="View My Resume"/>
-                <Icon href={transcript} img="transcriptTeal" download={true} tooltip="View My Transcript"/>
+                {/* <Icon href={transcript} img="transcriptTeal" download={true} tooltip="View My Transcript"/> */}
             </div>
         </div>
     )

@@ -20,12 +20,12 @@ function Courses() {
             <CardCourses data={ece454Data}/>
             <CardCourses data={ece358Data}/>
             <CardCourses data={ece356Data}/>
-            <CardCourses data={ece320Data}/>
+            {/* <CardCourses data={ece320Data}/> */}
             <CardCourses data={ece350Data}/>
-            <CardCourses data={ece327Data}/>
+            {/* <CardCourses data={ece327Data}/> */}
             <CardCourses data={ece252Data}/>
             <CardCourses data={ece250Data}/>
-            <CardCourses data={ece124Data}/>
+            {/* <CardCourses data={ece124Data}/> */}
             <CardCourses data={ece150Data}/>
         </div>
     );

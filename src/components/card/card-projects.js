@@ -13,7 +13,7 @@ function CardProjects(props) {
 
 
     return (
-        <div className="my-5 w-11/12 md:w-9/12 lg:w-8/12 2xl:w-7/12 divide-y bg-slate-300">
+        <div className="my-5 w-11/12 md:w-9/12 2xl:w-7/12 divide-y bg-slate-300">
             <div className="flex flex-col lg:flex-row divide-x">
                 <div className="flex flex-col lg:w-1/3 pt-5 pb-2 px-5 justify-between">
                     <div>
@@ -37,7 +37,7 @@ function CardProjects(props) {
                         {
                             props.data?.bullets.map(b => (
                                 b.type === "text" ? (
-                                    <div className='pt-2 text-sm md:text-base text-justify mr-5 md:mr-8 indent-8' key={b.value.slice(10)}>{b.value}</div>
+                                    <div className='pt-2 text-sm md:text-base mr-5 md:mr-8 indent-8' key={b.value.slice(10)}>{b.value}</div>
                                 ) : null
                             ))
                         }

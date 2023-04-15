@@ -13,7 +13,7 @@ function CardWork(props) {
 
 
     return (
-        <div className="my-5 w-11/12 md:w-9/12 lg:w-8/12 2xl:w-7/12 divide-y bg-slate-300">
+        <div className="my-5 w-11/12 md:w-9/12 2xl:w-7/12 divide-y bg-slate-300">
             <div className="flex flex-col h-min lg:flex-row divide-x">
                 <div className="flex flex-col lg:w-1/3 py-6 px-5">
                     <div className="font-poppins font-bold">{props.data?.title}</div>
